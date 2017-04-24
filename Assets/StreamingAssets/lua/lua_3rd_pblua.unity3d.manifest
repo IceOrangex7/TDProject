@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 330698082
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 09bd75ea9984f214db9b1ff60324aa20
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Lua/3rd/pblua/login_pb.lua.bytes
+- Assets/Lua/3rd/pblua/person_pb.lua.bytes
+Dependencies: []
