@@ -1,0 +1,38 @@
+﻿2017-04-24 18:00:33,066 [14180] INFO  GameService - The server instance GameService has been started!
+2017-04-24 18:07:12,529 [14180] INFO  GameService - The server instance GameService has been stopped!
+2017-04-24 21:09:49,110 [12792] INFO  GameService - The server instance GameService has been started!
+2017-04-24 21:09:57,061 [3664] INFO  GameService - The server instance GameService has been started!
+2017-04-24 21:14:08,591 [13300] INFO  GameService - Session: a3babed2-91b1-4373-b106-90f6ecf46b5e/127.0.0.1:13547
+A new session connected!
+2017-04-24 21:14:10,559 [13900] INFO  GameService - Session: a3babed2-91b1-4373-b106-90f6ecf46b5e/127.0.0.1:13547
+This session was closed for ClientClosing!
+2017-04-24 21:33:51,388 [13252] INFO  GameService - The server instance GameService has been started!
+2017-04-24 21:49:01,243 [9808] INFO  GameService - Session: 25413ef4-d555-43b2-82c8-edd22a2fb750/127.0.0.1:3546
+A new session connected!
+2017-04-24 21:49:03,214 [13740] INFO  GameService - Session: 25413ef4-d555-43b2-82c8-edd22a2fb750/127.0.0.1:3546
+This session was closed for ClientClosing!
+2017-04-24 21:50:09,089 [9808] INFO  GameService - Session: 477d8703-c48e-4b3a-a867-7803494a0333/127.0.0.1:3781
+A new session connected!
+2017-04-24 21:50:12,388 [13740] INFO  GameService - Session: 477d8703-c48e-4b3a-a867-7803494a0333/127.0.0.1:3781
+This session was closed for ClientClosing!
+2017-04-24 21:51:16,464 [9808] INFO  GameService - Session: 1748f835-0b39-4578-a2cc-ad25e605a08b/127.0.0.1:3990
+A new session connected!
+2017-04-24 21:51:17,616 [4440] INFO  GameService - Session: 1748f835-0b39-4578-a2cc-ad25e605a08b/127.0.0.1:3990
+This session was closed for ClientClosing!
+2017-04-24 21:51:56,204 [14844] INFO  GameService - Session: bb13514e-9a87-4bfa-b4d9-62d405ea586e/127.0.0.1:4120
+A new session connected!
+2017-04-24 21:51:58,420 [10188] INFO  GameService - Session: bb13514e-9a87-4bfa-b4d9-62d405ea586e/127.0.0.1:4120
+This session was closed for ClientClosing!
+2017-04-24 21:53:37,101 [15100] INFO  GameService - Session: c34b525d-2f12-4c5b-b40a-693b1b952035/127.0.0.1:4430
+A new session connected!
+2017-04-24 21:53:38,732 [10188] INFO  GameService - Session: c34b525d-2f12-4c5b-b40a-693b1b952035/127.0.0.1:4430
+This session was closed for ClientClosing!
+2017-04-24 22:04:13,336 [3420] INFO  GameService - The server instance GameService has been started!
+2017-04-24 22:09:50,410 [2728] INFO  GameService - Session: 36b3707a-68be-4447-bf28-caff49ba7666/127.0.0.1:4253
+A new session connected!
+2017-04-24 22:09:57,190 [3336] INFO  GameService - Session: 36b3707a-68be-4447-bf28-caff49ba7666/127.0.0.1:4253
+This session was closed for ClientClosing!
+2017-04-24 22:11:33,737 [2728] INFO  GameService - Session: 2b798d92-e376-4214-91d7-1ae475ed6b91/127.0.0.1:4354
+A new session connected!
+2017-04-24 22:11:35,673 [4420] INFO  GameService - Session: 2b798d92-e376-4214-91d7-1ae475ed6b91/127.0.0.1:4354
+This session was closed for ClientClosing!
