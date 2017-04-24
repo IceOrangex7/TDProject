@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 651593881
+CRC: 3530487179
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -57,17 +57,32 @@ AssetBundleManifest:
       Name: lua/lua.unity3d
       Dependencies: {}
     Info_18:
-      Name: prompt.unity3d
+      Name: bottom.unity3d
       Dependencies:
-        Dependency_0: prompt_asset.unity3d
-        Dependency_1: shared_asset.unity3d
+        Dependency_0: sprite_asset.unity3d
     Info_19:
-      Name: message.unity3d
+      Name: settings.unity3d
       Dependencies:
-        Dependency_0: shared_asset.unity3d
+        Dependency_0: sprite_asset.unity3d
+        Dependency_1: font_asset.unity3d
     Info_20:
-      Name: prompt_asset.unity3d
+      Name: sprite_asset.unity3d
       Dependencies: {}
     Info_21:
-      Name: shared_asset.unity3d
+      Name: font_asset.unity3d
+      Dependencies: {}
+    Info_22:
+      Name: message.unity3d
+      Dependencies:
+        Dependency_0: message_asset.unity3d
+    Info_23:
+      Name: prompt.unity3d
+      Dependencies:
+        Dependency_0: message_asset.unity3d
+        Dependency_1: prompt_asset.unity3d
+    Info_24:
+      Name: message_asset.unity3d
+      Dependencies: {}
+    Info_25:
+      Name: prompt_asset.unity3d
       Dependencies: {}

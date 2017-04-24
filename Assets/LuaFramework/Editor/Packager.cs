@@ -163,11 +163,17 @@ public class Packager {
         string resPath = AppDataPath + "/" + AppConst.AssetDir + "/";
         if (!Directory.Exists(resPath)) Directory.CreateDirectory(resPath);
 
-        AddBuildMap("prompt" + AppConst.ExtName, "*.prefab", "Assets/LuaFramework/Examples/Builds/Prompt");
-        AddBuildMap("message" + AppConst.ExtName, "*.prefab", "Assets/LuaFramework/Examples/Builds/Message");
+        AddBuildMap("bottom" + AppConst.ExtName, "*.prefab", "Assets/UI/Prefabs/Bottom");
+        AddBuildMap("settings" + AppConst.ExtName, "*.prefab", "Assets/UI/Prefabs/Settings");
 
+        AddBuildMap("sprite_asset" + AppConst.ExtName, "*.png", "Assets/UI/Sprite");
+        AddBuildMap("font_asset" + AppConst.ExtName, "*.otf", "Assets/UI/Font");
+
+        AddBuildMap("message" + AppConst.ExtName, "*.prefab", "Assets/LuaFramework/Examples/Builds/Message");
+        AddBuildMap("prompt" + AppConst.ExtName, "*.prefab", "Assets/LuaFramework/Examples/Builds/Prompt");
+
+        AddBuildMap("message_asset" + AppConst.ExtName, "*.png", "Assets/LuaFramework/Examples/Textures/Shared");
         AddBuildMap("prompt_asset" + AppConst.ExtName, "*.png", "Assets/LuaFramework/Examples/Textures/Prompt");
-        AddBuildMap("shared_asset" + AppConst.ExtName, "*.png", "Assets/LuaFramework/Examples/Textures/Shared");
     }
 
     /// <summary>

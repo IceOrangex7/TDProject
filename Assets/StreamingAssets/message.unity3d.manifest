@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2605867885
+CRC: 3129345324
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4a387e3ccddb476c22a35568feee15f2
+    Hash: 53402ce5eae9726aa7abc76057e29caa
   TypeTreeHash:
     serializedVersion: 2
     Hash: 5a310c47d268c6a7b818cf674a6428af
@@ -40,4 +40,4 @@ ClassTypes:
 Assets:
 - Assets/LuaFramework/Examples/Builds/Message/MessagePanel.prefab
 Dependencies:
-- Assets/StreamingAssets/shared_asset.unity3d
+- Assets/StreamingAssets/message_asset.unity3d

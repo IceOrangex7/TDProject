@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 2714405508
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1a24bdf1da1b31eb6aa9aa4b15eb4f0b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b45c00dfe281cf02f1f9c9411c401d36
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1573420865, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/UI/Prefabs/Settings/SettingsPanel.prefab
+Dependencies:
+- Assets/StreamingAssets/sprite_asset.unity3d
+- Assets/StreamingAssets/font_asset.unity3d

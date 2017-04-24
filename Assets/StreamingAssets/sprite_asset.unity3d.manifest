@@ -1,0 +1,106 @@
+ManifestFileVersion: 0
+CRC: 2169392332
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3f2a8ee0b55b9bd1cbc59825ccb8187c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9dea23ffc7e96552740e12d1ee5309d8
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/UI/Sprite/Slot 2.png
+- Assets/UI/Sprite/Button Yellow A.png
+- Assets/UI/Sprite/Bar Background.png
+- Assets/UI/Sprite/Replay.png
+- Assets/UI/Sprite/Button Red B.png
+- Assets/UI/Sprite/Star.png
+- Assets/UI/Sprite/Level Up.png
+- Assets/UI/Sprite/quest - bg.png
+- Assets/UI/Sprite/Character.png
+- Assets/UI/Sprite/Glow.png
+- Assets/UI/Sprite/Input Background.png
+- Assets/UI/Sprite/Engine.png
+- Assets/UI/Sprite/Star Center.png
+- Assets/UI/Sprite/Switch Off.png
+- Assets/UI/Sprite/Battle.png
+- Assets/UI/Sprite/Sword Icon.png
+- Assets/UI/Sprite/Dialogue.png
+- Assets/UI/Sprite/Victory Banner.png
+- Assets/UI/Sprite/inventory - 06.png
+- Assets/UI/Sprite/Leave 4.png
+- Assets/UI/Sprite/inventory - 02.png
+- Assets/UI/Sprite/quest - dialog.png
+- Assets/UI/Sprite/Sound.png
+- Assets/UI/Sprite/Switch Background.png
+- Assets/UI/Sprite/tab - selected.png
+- Assets/UI/Sprite/X.png
+- Assets/UI/Sprite/Banner 2.png
+- Assets/UI/Sprite/Scroll.png
+- Assets/UI/Sprite/Settings.png
+- Assets/UI/Sprite/Start Screen.png
+- Assets/UI/Sprite/Window.png
+- Assets/UI/Sprite/tab - normal.png
+- Assets/UI/Sprite/inventory - 04.png
+- Assets/UI/Sprite/Window Frame.png
+- Assets/UI/Sprite/Leave 6.png
+- Assets/UI/Sprite/Lock.png
+- Assets/UI/Sprite/Tick.png
+- Assets/UI/Sprite/Button Round Foreground Green.png
+- Assets/UI/Sprite/Shield.png
+- Assets/UI/Sprite/Play.png
+- Assets/UI/Sprite/Slot.png
+- Assets/UI/Sprite/background - wood.png
+- Assets/UI/Sprite/Leave 5.png
+- Assets/UI/Sprite/Title 2.png
+- Assets/UI/Sprite/Leave 7.png
+- Assets/UI/Sprite/Stars Shadow.png
+- Assets/UI/Sprite/Star Right.png
+- Assets/UI/Sprite/Tab Window.png
+- Assets/UI/Sprite/Title.png
+- Assets/UI/Sprite/Skull.png
+- Assets/UI/Sprite/Button Red A.png
+- Assets/UI/Sprite/Button Plus.png
+- Assets/UI/Sprite/Leave 3.png
+- Assets/UI/Sprite/Button Round.png
+- Assets/UI/Sprite/Portrait.png
+- Assets/UI/Sprite/Bar.png
+- Assets/UI/Sprite/Arrow.png
+- Assets/UI/Sprite/Time.png
+- Assets/UI/Sprite/Button Round Background 2.png
+- Assets/UI/Sprite/Leave 2.png
+- Assets/UI/Sprite/Thunder Icon.png
+- Assets/UI/Sprite/Button X.png
+- Assets/UI/Sprite/inventory - 01.png
+- Assets/UI/Sprite/Button Blue A.png
+- Assets/UI/Sprite/Button Round Foreground.png
+- Assets/UI/Sprite/Button Blue B.png
+- Assets/UI/Sprite/Ornament.png
+- Assets/UI/Sprite/Slider Background.png
+- Assets/UI/Sprite/inventory - 05.png
+- Assets/UI/Sprite/Button Round Background.png
+- Assets/UI/Sprite/Star Left.png
+- Assets/UI/Sprite/frame - 1.png
+- Assets/UI/Sprite/frame - 2.png
+- Assets/UI/Sprite/Banner.png
+- Assets/UI/Sprite/Input Background Small.png
+- Assets/UI/Sprite/inventory - 03.png
+- Assets/UI/Sprite/Leave.png
+- Assets/UI/Sprite/Switch On.png
+- Assets/UI/Sprite/Ok.png
+- Assets/UI/Sprite/Mail.png
+- Assets/UI/Sprite/Tick Background.png
+- Assets/UI/Sprite/Tab.png
+- Assets/UI/Sprite/Button Yellow B.png
+- Assets/UI/Sprite/Thumb.png
+- Assets/UI/Sprite/Heart.png
+- Assets/UI/Sprite/People.png
+- Assets/UI/Sprite/Seperator.png
+- Assets/UI/Sprite/Controller.png
+- Assets/UI/Sprite/quest - leave.png
+Dependencies: []

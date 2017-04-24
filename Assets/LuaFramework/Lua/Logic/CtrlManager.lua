@@ -1,4 +1,6 @@
 require "Common/define"
+require "Controller/BottomCtrl"
+require "Controller/SettingsCtrl"
 require "Controller/PromptCtrl"
 require "Controller/MessageCtrl"
 
@@ -8,8 +10,10 @@ local ctrlList = {};	--控制器列表--
 
 function CtrlManager.Init()
 	logWarn("CtrlManager.Init----->>>");
-	ctrlList[CtrlNames.Prompt] = PromptCtrl.New();
-	ctrlList[CtrlNames.Message] = MessageCtrl.New();
+	ctrlList[CtrlNames.Prompt] = BottomCtrl.New();
+	ctrlList[CtrlNames.Message] = SettingsCtrl.New();
+	--ctrlList[CtrlNames.Bottom] = BottomCtrl.New();
+	--ctrlList[CtrlNames.Settings] = SettingsCtrl.New();
 	return this;
 end
 

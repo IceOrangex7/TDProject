@@ -48,9 +48,13 @@ function Game.OnInitOK()
     coroutine.start(this.test_coroutine);
 
     CtrlManager.Init();
-    local ctrl = CtrlManager.GetCtrl(CtrlNames.Prompt);
-    if ctrl ~= nil and AppConst.ExampleMode == 1 then
-        ctrl:Awake();
+    local BottomCtrl = CtrlManager.GetCtrl(CtrlNames.Prompt);
+    local SettingsCtrl = CtrlManager.GetCtrl(CtrlNames.Message);
+    if BottomCtrl ~= nil and AppConst.ExampleMode == 1 then
+        BottomCtrl:Awake();
+    end
+    if SettingsCtrl ~= nil and AppConst.ExampleMode == 1 then
+        SettingsCtrl:Awake();
     end
        
     logWarn('LuaFramework InitOK--->>>');
