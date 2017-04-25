@@ -22,10 +22,18 @@ function SettingsCtrl.OnCreate(obj)
 	gameObject = obj;
 	transform = obj.transform
 	lua = gameObject:GetComponent('LuaBehaviour');
-	lua:AddClick(SettingsPanel.btnClose, this.OnClick);
+	lua:AddClick(SettingsPanel.btnClose, this.OnHide);
 end
 
 --µ¥»÷ÊÂ¼þ--
 function SettingsCtrl.OnClick(go)
-	
+	this.OnShow()
+end
+
+function SettingsCtrl.OnShow()
+	SettingsPanel.anim:SetBool("IsShow",true)
+end
+
+function SettingsCtrl.OnHide()
+	SettingsPanel.anim:SetBool("IsShow",false)
 end

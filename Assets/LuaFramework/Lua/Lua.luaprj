@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <Project Name="Lua.luaprj" Cmd="" Arg="" Dir="" Toggle="false" >
-    <Filter Name="Lua" Directory="." Toggle="false" >
+    <Filter Name="Lua" Toggle="false" >
         <LuaFile RelativePath=".\eventlib.lua" />
         <LuaFile RelativePath=".\events.lua" />
         <LuaFile RelativePath=".\Main.lua" />
@@ -52,19 +52,20 @@
             <LuaFile RelativePath=".\Controller\PromptCtrl.lua" />
             <LuaFile RelativePath=".\Controller\SettingsCtrl.lua" />
             <LuaFile RelativePath=".\Controller\BottomCtrl.lua" />
+            <LuaFile RelativePath=".\Controller\PeopleCtrl.lua" />
         </Filter>
         <Filter Name="Logic" Directory=".\Logic" Toggle="false" >
             <LuaFile RelativePath=".\Logic\CtrlManager.lua" />
             <LuaFile RelativePath=".\Logic\Game.lua" />
             <LuaFile RelativePath=".\Logic\LuaClass.lua" />
             <LuaFile RelativePath=".\Logic\Network.lua" />
-            <LuaFile RelativePath=".\Logic\GameManager.lua" />
         </Filter>
         <Filter Name="View" Directory=".\View" Toggle="false" >
             <LuaFile RelativePath=".\View\MessagePanel.lua" />
             <LuaFile RelativePath=".\View\PromptPanel.lua" />
             <LuaFile RelativePath=".\View\BottomPanel.lua" />
             <LuaFile RelativePath=".\View\SettingsPanel.lua" />
+            <LuaFile RelativePath=".\View\PeoplePanel.lua" />
         </Filter>
     </Filter>
 </Project>

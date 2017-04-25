@@ -38,8 +38,15 @@ function Game.OnInitOK()
 
     --注册LuaView--
     this.InitViewPanels();
+    CtrlManager.Init();
+    local SettingsCtrl = CtrlManager.GetCtrl(CtrlNames.Settings);
+        SettingsCtrl:Awake();
+    local PeopleCtrl = CtrlManager.GetCtrl(CtrlNames.People);
+        PeopleCtrl:Awake();
+    local BottomCtrl = CtrlManager.GetCtrl(CtrlNames.Bottom);
+        BottomCtrl:Awake();
 
-    this.test_class_func();
+   --[[ this.test_class_func();
     this.test_pblua_func();
     this.test_cjson_func();
     this.test_pbc_func();
@@ -58,6 +65,7 @@ function Game.OnInitOK()
     end
        
     logWarn('LuaFramework InitOK--->>>');
+	]]--
 end
 
 --测试协同--

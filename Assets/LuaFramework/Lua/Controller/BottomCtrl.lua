@@ -1,5 +1,7 @@
 require "Common/define"
 require "View/BottomPanel"
+require "Controller/SettingsCtrl"
+require "Controller/PeopleCtrl"
 
 BottomCtrl = {};
 local this = BottomCtrl;
@@ -29,13 +31,13 @@ end
 
 
 function BottomCtrl.OnSettingsClick(go)
-	
+	SettingsCtrl.OnShow()
 end
 
-function BottomCtrl.OnSettingsClick(go)
-	
+function BottomCtrl.OnPeopleClick(go)
+	PeopleCtrl.OnShow()
 end
 
-function BottomCtrl.OnSettingsClick(go)
+function BottomCtrl.OnDialogClick(go)
 	
 end

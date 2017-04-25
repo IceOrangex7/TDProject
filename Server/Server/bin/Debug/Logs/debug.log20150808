@@ -1,6 +1,0 @@
-﻿2015-08-08 19:12:54,995 [42900] DEBUG DefaultBootstrap - The server instance GameService has been created!
-2015-08-08 19:12:55,089 [42900] DEBUG DefaultBootstrap - The server instance GameService has been initialized!
-2015-08-08 19:12:55,828 [42900] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
-2015-08-08 19:12:55,828 [42900] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
-2015-08-08 19:12:55,859 [42900] DEBUG GameService - Listener (0.0.0.0:2012) was started
-2015-08-08 19:12:55,877 [42900] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!

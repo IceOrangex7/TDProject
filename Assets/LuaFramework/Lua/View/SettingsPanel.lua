@@ -14,5 +14,5 @@ end
 
 function SettingsPanel.InitPanel()
 	this.anim = transform:FindChild("Bg"):GetComponent("Animator")
-	this.buttonClose = transform:FindChild("Bg/ButtonClose").gameObject
+	this.btnClose = transform:FindChild("Bg/ButtonClose").gameObject
 end

@@ -165,6 +165,7 @@ public class Packager {
 
         AddBuildMap("bottom" + AppConst.ExtName, "*.prefab", "Assets/UI/Prefabs/Bottom");
         AddBuildMap("settings" + AppConst.ExtName, "*.prefab", "Assets/UI/Prefabs/Settings");
+        AddBuildMap("people" + AppConst.ExtName, "*.prefab", "Assets/UI/Prefabs/People");
 
         AddBuildMap("sprite_asset" + AppConst.ExtName, "*.png", "Assets/UI/Sprite");
         AddBuildMap("font_asset" + AppConst.ExtName, "*.otf", "Assets/UI/Font");
