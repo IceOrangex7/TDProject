@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3256121023
+CRC: 2348723015
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d215688cc8352d2f78d3718ef4cb2aa0
+    Hash: ff5a997167012a8bbdcba847be8c2513
   TypeTreeHash:
     serializedVersion: 2
     Hash: 764788adf807d23ba9599bb6ae88b72a
@@ -26,6 +26,6 @@ ClassTypes:
 - Class: 224
   Script: {instanceID: 0}
 Assets:
-- Assets/UI/Prefabs/Bottom/BottomPanel.prefab
+- Assets/Builds/Prefabs/Bottom/BottomPanel.prefab
 Dependencies:
-- Assets/StreamingAssets/sprite_asset.unity3d
+- Assets/StreamingAssets/texture_assets.unity3d

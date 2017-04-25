@@ -1,0 +1,106 @@
+ManifestFileVersion: 0
+CRC: 1780405571
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3bd3d8645124b988a1f0c5d86e4d203e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9dea23ffc7e96552740e12d1ee5309d8
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Builds/Assets/Texture/Slot 2.png
+- Assets/Builds/Assets/Texture/Button Yellow A.png
+- Assets/Builds/Assets/Texture/Bar Background.png
+- Assets/Builds/Assets/Texture/Replay.png
+- Assets/Builds/Assets/Texture/Button Red B.png
+- Assets/Builds/Assets/Texture/Star.png
+- Assets/Builds/Assets/Texture/Level Up.png
+- Assets/Builds/Assets/Texture/quest - bg.png
+- Assets/Builds/Assets/Texture/Character.png
+- Assets/Builds/Assets/Texture/Glow.png
+- Assets/Builds/Assets/Texture/Input Background.png
+- Assets/Builds/Assets/Texture/Engine.png
+- Assets/Builds/Assets/Texture/Star Center.png
+- Assets/Builds/Assets/Texture/Switch Off.png
+- Assets/Builds/Assets/Texture/Battle.png
+- Assets/Builds/Assets/Texture/Sword Icon.png
+- Assets/Builds/Assets/Texture/Dialogue.png
+- Assets/Builds/Assets/Texture/Victory Banner.png
+- Assets/Builds/Assets/Texture/inventory - 06.png
+- Assets/Builds/Assets/Texture/Leave 4.png
+- Assets/Builds/Assets/Texture/inventory - 02.png
+- Assets/Builds/Assets/Texture/quest - dialog.png
+- Assets/Builds/Assets/Texture/Sound.png
+- Assets/Builds/Assets/Texture/Switch Background.png
+- Assets/Builds/Assets/Texture/tab - selected.png
+- Assets/Builds/Assets/Texture/X.png
+- Assets/Builds/Assets/Texture/Banner 2.png
+- Assets/Builds/Assets/Texture/Scroll.png
+- Assets/Builds/Assets/Texture/Settings.png
+- Assets/Builds/Assets/Texture/Start Screen.png
+- Assets/Builds/Assets/Texture/Window.png
+- Assets/Builds/Assets/Texture/tab - normal.png
+- Assets/Builds/Assets/Texture/inventory - 04.png
+- Assets/Builds/Assets/Texture/Window Frame.png
+- Assets/Builds/Assets/Texture/Leave 6.png
+- Assets/Builds/Assets/Texture/Lock.png
+- Assets/Builds/Assets/Texture/Tick.png
+- Assets/Builds/Assets/Texture/Button Round Foreground Green.png
+- Assets/Builds/Assets/Texture/Shield.png
+- Assets/Builds/Assets/Texture/Play.png
+- Assets/Builds/Assets/Texture/Slot.png
+- Assets/Builds/Assets/Texture/background - wood.png
+- Assets/Builds/Assets/Texture/Leave 5.png
+- Assets/Builds/Assets/Texture/Title 2.png
+- Assets/Builds/Assets/Texture/Leave 7.png
+- Assets/Builds/Assets/Texture/Stars Shadow.png
+- Assets/Builds/Assets/Texture/Star Right.png
+- Assets/Builds/Assets/Texture/Tab Window.png
+- Assets/Builds/Assets/Texture/Title.png
+- Assets/Builds/Assets/Texture/Skull.png
+- Assets/Builds/Assets/Texture/Button Red A.png
+- Assets/Builds/Assets/Texture/Button Plus.png
+- Assets/Builds/Assets/Texture/Leave 3.png
+- Assets/Builds/Assets/Texture/Button Round.png
+- Assets/Builds/Assets/Texture/Portrait.png
+- Assets/Builds/Assets/Texture/Bar.png
+- Assets/Builds/Assets/Texture/Arrow.png
+- Assets/Builds/Assets/Texture/Time.png
+- Assets/Builds/Assets/Texture/Button Round Background 2.png
+- Assets/Builds/Assets/Texture/Leave 2.png
+- Assets/Builds/Assets/Texture/Thunder Icon.png
+- Assets/Builds/Assets/Texture/Button X.png
+- Assets/Builds/Assets/Texture/inventory - 01.png
+- Assets/Builds/Assets/Texture/Button Blue A.png
+- Assets/Builds/Assets/Texture/Button Round Foreground.png
+- Assets/Builds/Assets/Texture/Button Blue B.png
+- Assets/Builds/Assets/Texture/Ornament.png
+- Assets/Builds/Assets/Texture/Slider Background.png
+- Assets/Builds/Assets/Texture/inventory - 05.png
+- Assets/Builds/Assets/Texture/Button Round Background.png
+- Assets/Builds/Assets/Texture/Star Left.png
+- Assets/Builds/Assets/Texture/frame - 1.png
+- Assets/Builds/Assets/Texture/frame - 2.png
+- Assets/Builds/Assets/Texture/Banner.png
+- Assets/Builds/Assets/Texture/Input Background Small.png
+- Assets/Builds/Assets/Texture/inventory - 03.png
+- Assets/Builds/Assets/Texture/Leave.png
+- Assets/Builds/Assets/Texture/Switch On.png
+- Assets/Builds/Assets/Texture/Ok.png
+- Assets/Builds/Assets/Texture/Mail.png
+- Assets/Builds/Assets/Texture/Tick Background.png
+- Assets/Builds/Assets/Texture/Tab.png
+- Assets/Builds/Assets/Texture/Button Yellow B.png
+- Assets/Builds/Assets/Texture/Thumb.png
+- Assets/Builds/Assets/Texture/Heart.png
+- Assets/Builds/Assets/Texture/People.png
+- Assets/Builds/Assets/Texture/Seperator.png
+- Assets/Builds/Assets/Texture/Controller.png
+- Assets/Builds/Assets/Texture/quest - leave.png
+Dependencies: []

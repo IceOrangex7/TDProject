@@ -13,7 +13,6 @@ local print_r = require "3rd/sproto/print_r"
 require "Logic/LuaClass"
 require "Logic/CtrlManager"
 require "Common/functions"
-require "Controller/PromptCtrl"
 
 --管理器--
 Game = {};
@@ -221,6 +220,7 @@ function Game.OnJsonCall(data)
     local obj = json.decode(data);
     print(obj['menu']['id']);
 end
+
 
 --销毁--
 function Game.OnDestroy()

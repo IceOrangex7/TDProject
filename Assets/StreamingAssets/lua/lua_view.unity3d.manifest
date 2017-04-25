@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1101204947
+CRC: 3734680058
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d5d8c2bde6a8f8eb7466e935fd8bd860
+    Hash: 7b6a489e5aec76b1b4ee2f8331c46249
   TypeTreeHash:
     serializedVersion: 2
     Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
@@ -12,9 +12,9 @@ ClassTypes:
 - Class: 49
   Script: {instanceID: 0}
 Assets:
-- Assets/Lua/View/PeoplePanel.lua.bytes
-- Assets/Lua/View/PromptPanel.lua.bytes
-- Assets/Lua/View/SettingsPanel.lua.bytes
-- Assets/Lua/View/MessagePanel.lua.bytes
 - Assets/Lua/View/BottomPanel.lua.bytes
+- Assets/Lua/View/SettingsPanel.lua.bytes
+- Assets/Lua/View/PeoplePanel.lua.bytes
+- Assets/Lua/View/MessagePanel.lua.bytes
+- Assets/Lua/View/PromptPanel.lua.bytes
 Dependencies: []

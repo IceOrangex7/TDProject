@@ -1,8 +1,6 @@
 require "Common/define"
 require "Controller/BottomCtrl"
 require "Controller/SettingsCtrl"
-require "Controller/PromptCtrl"
-require "Controller/MessageCtrl"
 require "Controller/PeopleCtrl"
 
 CtrlManager = {};
@@ -14,8 +12,6 @@ function CtrlManager.Init()
 	ctrlList[CtrlNames.Bottom] = BottomCtrl.New();
 	ctrlList[CtrlNames.Settings] = SettingsCtrl.New();
 	ctrlList[CtrlNames.People] = PeopleCtrl.New();
-	--ctrlList[CtrlNames.Bottom] = BottomCtrl.New();
-	--ctrlList[CtrlNames.Settings] = SettingsCtrl.New();
 	return this;
 end
 

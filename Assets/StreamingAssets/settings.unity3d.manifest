@@ -1,17 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2575258076
+CRC: 3397271552
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 2b554c3870b8aceb6fda8b0dd4a5dbd8
+    Hash: 3a5923dbf53978c43302de9691ee5cb9
   TypeTreeHash:
     serializedVersion: 2
-    Hash: b45c00dfe281cf02f1f9c9411c401d36
+    Hash: 2ce14430a5c471625521117577314440
 HashAppended: 0
 ClassTypes:
 - Class: 1
-  Script: {instanceID: 0}
-- Class: 74
   Script: {instanceID: 0}
 - Class: 91
   Script: {instanceID: 0}
@@ -36,7 +34,8 @@ ClassTypes:
 - Class: 224
   Script: {instanceID: 0}
 Assets:
-- Assets/UI/Prefabs/Settings/SettingsPanel.prefab
+- Assets/Builds/Prefabs/Settings/SettingsPanel.prefab
 Dependencies:
-- Assets/StreamingAssets/sprite_asset.unity3d
-- Assets/StreamingAssets/font_asset.unity3d
+- Assets/StreamingAssets/animator_assets.unity3d
+- Assets/StreamingAssets/font_assets.unity3d
+- Assets/StreamingAssets/texture_assets.unity3d

@@ -48,8 +48,6 @@
             <LuaFile RelativePath=".\Common\protocal.lua" />
         </Filter>
         <Filter Name="Controller" Directory=".\Controller" Toggle="false" >
-            <LuaFile RelativePath=".\Controller\MessageCtrl.lua" />
-            <LuaFile RelativePath=".\Controller\PromptCtrl.lua" />
             <LuaFile RelativePath=".\Controller\SettingsCtrl.lua" />
             <LuaFile RelativePath=".\Controller\BottomCtrl.lua" />
             <LuaFile RelativePath=".\Controller\PeopleCtrl.lua" />
@@ -61,8 +59,6 @@
             <LuaFile RelativePath=".\Logic\Network.lua" />
         </Filter>
         <Filter Name="View" Directory=".\View" Toggle="false" >
-            <LuaFile RelativePath=".\View\MessagePanel.lua" />
-            <LuaFile RelativePath=".\View\PromptPanel.lua" />
             <LuaFile RelativePath=".\View\BottomPanel.lua" />
             <LuaFile RelativePath=".\View\SettingsPanel.lua" />
             <LuaFile RelativePath=".\View\PeoplePanel.lua" />

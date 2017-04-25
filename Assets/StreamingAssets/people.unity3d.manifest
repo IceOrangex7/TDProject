@@ -1,17 +1,15 @@
 ManifestFileVersion: 0
-CRC: 760586247
+CRC: 3381054449
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f9822a51330e105aea98e468baeb0f8c
+    Hash: e491e242e4a297029e1e1f0537e21ac0
   TypeTreeHash:
     serializedVersion: 2
-    Hash: b45c00dfe281cf02f1f9c9411c401d36
+    Hash: 2ce14430a5c471625521117577314440
 HashAppended: 0
 ClassTypes:
 - Class: 1
-  Script: {instanceID: 0}
-- Class: 74
   Script: {instanceID: 0}
 - Class: 91
   Script: {instanceID: 0}
@@ -36,7 +34,8 @@ ClassTypes:
 - Class: 224
   Script: {instanceID: 0}
 Assets:
-- Assets/UI/Prefabs/People/PeoplePanel.prefab
+- Assets/Builds/Prefabs/People/PeoplePanel.prefab
 Dependencies:
-- Assets/StreamingAssets/sprite_asset.unity3d
-- Assets/StreamingAssets/font_asset.unity3d
+- Assets/StreamingAssets/animator_assets.unity3d
+- Assets/StreamingAssets/font_assets.unity3d
+- Assets/StreamingAssets/texture_assets.unity3d

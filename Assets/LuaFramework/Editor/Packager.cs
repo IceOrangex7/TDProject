@@ -47,8 +47,15 @@ public class Packager {
     }
 
     [MenuItem("LuaFramework/Build Windows Resource", false, 102)]
-    public static void BuildWindowsResource() {
+    public static void BuildWindowsResource()
+    {
         BuildAssetResource(BuildTarget.StandaloneWindows);
+    }
+
+    [MenuItem("LuaFramework/Upload Resource To Local", false, 102)]
+    public static void UploadResourceToLocal()
+    {
+        Util.Log("暂定没写");
     }
 
     /// <summary>
@@ -162,19 +169,37 @@ public class Packager {
     static void HandleExampleBundle() {
         string resPath = AppDataPath + "/" + AppConst.AssetDir + "/";
         if (!Directory.Exists(resPath)) Directory.CreateDirectory(resPath);
-
-        AddBuildMap("bottom" + AppConst.ExtName, "*.prefab", "Assets/UI/Prefabs/Bottom");
-        AddBuildMap("settings" + AppConst.ExtName, "*.prefab", "Assets/UI/Prefabs/Settings");
-        AddBuildMap("people" + AppConst.ExtName, "*.prefab", "Assets/UI/Prefabs/People");
-
-        AddBuildMap("sprite_asset" + AppConst.ExtName, "*.png", "Assets/UI/Sprite");
-        AddBuildMap("font_asset" + AppConst.ExtName, "*.otf", "Assets/UI/Font");
-
-        AddBuildMap("message" + AppConst.ExtName, "*.prefab", "Assets/LuaFramework/Examples/Builds/Message");
-        AddBuildMap("prompt" + AppConst.ExtName, "*.prefab", "Assets/LuaFramework/Examples/Builds/Prompt");
-
-        AddBuildMap("message_asset" + AppConst.ExtName, "*.png", "Assets/LuaFramework/Examples/Textures/Shared");
-        AddBuildMap("prompt_asset" + AppConst.ExtName, "*.png", "Assets/LuaFramework/Examples/Textures/Prompt");
+        
+        string[] tempFiles = Directory.GetDirectories(AppConst.LocalPrefabsPath);
+        for (int i = 0; i < tempFiles.Length; i++)
+        {
+            tempFiles[i] = tempFiles[i].Replace("\\", "/");
+            string[] names = Directory.GetFiles(tempFiles[i]);
+            string ext = string.Empty;
+            foreach (string filename in names)
+            {
+                ext = Path.GetExtension(filename);
+                if (ext.Equals(".meta")) continue;
+                break;
+            }
+            string name = tempFiles[i].Remove(0, tempFiles[i].LastIndexOf('/') + 1).ToLower() + AppConst.ExtName;
+            AddBuildMap(name, "*" + ext, tempFiles[i]);
+        }
+        tempFiles = Directory.GetDirectories(AppConst.LocalAssetsPath);
+        for (int i = 0; i < tempFiles.Length; i++)
+        {
+            tempFiles[i] = tempFiles[i].Replace("\\", "/");
+            string[] names = Directory.GetFiles(tempFiles[i]);
+            string ext = string.Empty;
+            foreach (string filename in names)
+            {
+                ext = Path.GetExtension(filename);
+                if (ext.Equals(".meta")) continue;
+                break;
+            }
+            string name = tempFiles[i].Remove(0, tempFiles[i].LastIndexOf('/') + 1).ToLower() + "_assets" + AppConst.ExtName;
+            AddBuildMap(name, "*" +ext, tempFiles[i]);
+        }
     }
 
     /// <summary>
@@ -251,15 +276,18 @@ public class Packager {
     /// <summary>
     /// 遍历目录及其子目录
     /// </summary>
-    static void Recursive(string path) {
+    static void Recursive(string path)
+    {
         string[] names = Directory.GetFiles(path);
         string[] dirs = Directory.GetDirectories(path);
-        foreach (string filename in names) {
+        foreach (string filename in names)
+        {
             string ext = Path.GetExtension(filename);
             if (ext.Equals(".meta")) continue;
             files.Add(filename.Replace('\\', '/'));
         }
-        foreach (string dir in dirs) {
+        foreach (string dir in dirs)
+        {
             paths.Add(dir.Replace('\\', '/'));
             Recursive(dir);
         }

@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 1938176304
+CRC: 3807309816
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -59,35 +59,29 @@ AssetBundleManifest:
     Info_18:
       Name: bottom.unity3d
       Dependencies:
-        Dependency_0: sprite_asset.unity3d
+        Dependency_0: texture_assets.unity3d
     Info_19:
-      Name: settings.unity3d
-      Dependencies:
-        Dependency_0: sprite_asset.unity3d
-        Dependency_1: font_asset.unity3d
-    Info_20:
       Name: people.unity3d
       Dependencies:
-        Dependency_0: sprite_asset.unity3d
-        Dependency_1: font_asset.unity3d
+        Dependency_0: animator_assets.unity3d
+        Dependency_1: font_assets.unity3d
+        Dependency_2: texture_assets.unity3d
+    Info_20:
+      Name: settings.unity3d
+      Dependencies:
+        Dependency_0: animator_assets.unity3d
+        Dependency_1: font_assets.unity3d
+        Dependency_2: texture_assets.unity3d
     Info_21:
-      Name: sprite_asset.unity3d
+      Name: animation_assets.unity3d
       Dependencies: {}
     Info_22:
-      Name: font_asset.unity3d
-      Dependencies: {}
+      Name: animator_assets.unity3d
+      Dependencies:
+        Dependency_0: animation_assets.unity3d
     Info_23:
-      Name: message.unity3d
-      Dependencies:
-        Dependency_0: message_asset.unity3d
-    Info_24:
-      Name: prompt.unity3d
-      Dependencies:
-        Dependency_0: message_asset.unity3d
-        Dependency_1: prompt_asset.unity3d
-    Info_25:
-      Name: message_asset.unity3d
+      Name: font_assets.unity3d
       Dependencies: {}
-    Info_26:
-      Name: prompt_asset.unity3d
+    Info_24:
+      Name: texture_assets.unity3d
       Dependencies: {}

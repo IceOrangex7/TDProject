@@ -35,6 +35,11 @@ namespace LuaFramework {
         public static int SocketPort = 0;                           //Socket服务器端口
         public static string SocketAddress = string.Empty;          //Socket服务器地址
 
+        public static string LocalPrefabsPath = "Assets/Builds/Prefabs";      //本地资源打包读取位置
+        public static string LocalAssetsPath = "Assets/Builds/Assets";      //本地资源打包读取位置
+
+        public static string LocalServerAssetsPath = "D:/AssetBundle/Assets";                    //本地服务器资源存放位置
+
         public static string FrameworkRoot {
             get {
                 return Application.dataPath + "/" + AppName;

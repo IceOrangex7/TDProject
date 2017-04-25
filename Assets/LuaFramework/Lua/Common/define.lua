@@ -1,15 +1,11 @@
 
 CtrlNames = {
-	Prompt = "PromptCtrl",
-	Message = "MessageCtrl",
 	Bottom = "BottomCtrl",
 	Settings = "SettingsCtrl",
 	People = "PeopleCtrl"
 }
 
 PanelNames = {
-	"PromptPanel",	
-	"MessagePanel",
 	"SettingsPanel",	
 	"BottomPanel",
 	"PeoplePanel",
